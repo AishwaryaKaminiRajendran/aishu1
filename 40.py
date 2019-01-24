@@ -9,6 +9,6 @@ while i<=n:
     next=first+second
     first=second
     second=next
-  print(next,end=" ")
-  i=i+i
-     
+  i=i+1
+print(next,end=" ")
+  
