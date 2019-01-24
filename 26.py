@@ -1,5 +1,5 @@
 w=int(input())
 e=[int(i) for i in input().split()]
-a=sorted(e)
+k=sorted(e)
 for i in range(0,len(e)):
-	print(a[i],' ',end=" ")
+	print(k[i],end=" ")
