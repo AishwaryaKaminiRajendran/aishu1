@@ -1,6 +1,6 @@
-a,b=map(int,input().split())
-t=a
-a=b
-b=t
-print(a,b)
+x,y=map(int,input().split())
+t=x
+x=y
+y=t
+print(x,y)
 
