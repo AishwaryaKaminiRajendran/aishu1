@@ -1,4 +1,5 @@
 # your code goes here
-n=int,input().split()
+# your code goes here
+n=map(int,input().split())
 a=min(n)
 print(a)
