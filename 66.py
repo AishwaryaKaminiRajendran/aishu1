@@ -1,11 +1,11 @@
-N=int(input())
+a=int(input())
 i=1
-c=0
-while i<=N:
-	if N%i==0:
-		c=c+1
+s=0
+while i<=a:
+	if a%i==0:
+		s=s+1
 	i=i+1
-if c==2:
+if s==2:
 	print("yes")
 else:
 	print("no")
